@@ -1,17 +1,4 @@
 <?php
-/*
-  | Source Code Aplikasi Rental gadget PHP & MySQL
-  | 
-  | @package   : rental_gadget
-  | @file	   : konfirmasi.php 
-  | @author    : fauzan1892 / Fauzan Falah
-  | @copyright : Copyright (c) 2017-2021 Codekop.com (https://www.codekop.com)
-  | @blog      : https://www.codekop.com/products/source-code-aplikasi-rental-gadget-php-mysql-7.html 
-  | 
-  | 
-  | 
-  | 
- */
     session_start();
     require 'koneksi/koneksi.php';
     include 'header.php';
@@ -35,7 +22,7 @@
 
                 <center><h3>Pembayaran Dapat Melalui :</h3>
                 <hr/>
-                <p> BRI 2132131246 A/N Rental Dirga </p></center>
+                <p> BSI 56565656565 A/N Rachma </p></center>
 
             </div>
         </div>

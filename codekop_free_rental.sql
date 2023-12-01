@@ -73,7 +73,7 @@ CREATE TABLE `infoweb` (
 --
 
 INSERT INTO `infoweb` (`id`, `nama_rental`, `telp`, `alamat`, `email`, `no_rek`, `updated_at`) VALUES
-(1, 'Rental Anang', '081298669897', 'Ujung Harapan Kab. Bekasi', 'fauzancodekop@gmail.com', 'BRI A/N Fauzan Falah 123123213123', '2022-01-24 04:57:29');
+(1, 'G-Rent', '081298669897', 'Ujung Harapan Kab. Bekasi', 'fauzancodekop@gmail.com', 'BRI A/N Fauzan Falah 123123213123', '2022-01-24 04:57:29');
 
 -- --------------------------------------------------------
 

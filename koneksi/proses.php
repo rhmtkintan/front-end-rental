@@ -1,17 +1,4 @@
 <?php
-/*
-  | Source Code Aplikasi Rental gadget PHP & MySQL
-  | 
-  | @package   : rental_gadget
-  | @file	   : proses.php 
-  | @author    : fauzan1892 / Fauzan Falah
-  | @copyright : Copyright (c) 2017-2021 Codekop.com (https://www.codekop.com)
-  | @blog      : https://www.codekop.com/products/source-code-aplikasi-rental-gadget-php-mysql-7.html 
-  | 
-  | 
-  | 
-  | 
- */
  require 'koneksi.php';
 if($_GET['id'] == 'login'){
     $user = $_POST['user'];

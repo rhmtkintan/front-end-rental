@@ -1,17 +1,4 @@
 <?php
-/*
-  | Source Code Aplikasi Rental gadget PHP & MySQL
-  | 
-  | @package   : rental_gadget
-  | @file	   : history.php 
-  | @author    : fauzan1892 / Fauzan Falah
-  | @copyright : Copyright (c) 2017-2021 Codekop.com (https://www.codekop.com)
-  | @blog      : https://www.codekop.com/products/source-code-aplikasi-rental-gadget-php-mysql-7.html 
-  | 
-  | 
-  | 
-  | 
- */
     session_start();
     require 'koneksi/koneksi.php';
     include 'header.php';
@@ -37,7 +24,7 @@
                         <tr>
                             <th>No. </th>
                             <th>Kode Booking</th>
-                            <th>Merk gadget</th>
+                            <th>Merk Gadget</th>
                             <th>Nama </th>
                             <th>Tanggal Sewa </th>
                             <th>Lama Sewa </th>

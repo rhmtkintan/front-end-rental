@@ -1,17 +1,4 @@
 <?php
-/*
-  | Source Code Aplikasi Rental gadget PHP & MySQL
-  | 
-  | @package   : rental_gadget
-  | @file	   : kontak.php 
-  | @author    : fauzan1892 / Fauzan Falah
-  | @copyright : Copyright (c) 2017-2021 Codekop.com (https://www.codekop.com)
-  | @blog      : https://www.codekop.com/products/source-code-aplikasi-rental-gadget-php-mysql-7.html 
-  | 
-  | 
-  | 
-  | 
- */
     session_start();
     require 'koneksi/koneksi.php';
     include 'header.php';
@@ -27,8 +14,43 @@
             
             // Mengonversi response menjadi objek JSON
             $data = json_decode($response);
-            $contactApi = $data->data->contact;?>
+            $contactApi = $data->data->contact;
+            //var_dump($data);
+            ?>
+            <!-- Langsung dari db-->
             <div class="card">
+                <div class="card-header">
+                    Kontak Kami
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-4">Nama Rental</div>
+                        <div class="col-sm-8"><?= $info_web->nama_rental;?></div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-sm-4">Telp</div>
+                        <div class="col-sm-8"><?= $info_web->telp;?></div>
+                    </div>
+                
+                    <div class="row mt-3">
+                        <div class="col-sm-4">Alamat</div>
+                        <div class="col-sm-8"><?= $info_web->alamat;?></div>
+                    </div>
+                
+                    <div class="row mt-3">
+                        <div class="col-sm-4">Email</div>
+                        <div class="col-sm-8"><?= $info_web->email;?></div>
+                    </div>
+                
+                    <div class="row mt-3">
+                        <div class="col-sm-4">No Rekening</div>
+                        <div class="col-sm-8"><?= $info_web->no_rek;?></div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <!-- Bentuk kalau pake api -->
+            <!-- <div class="card">
                 <div class="card-header">
                     Kontak Kami
                 </div>
@@ -57,7 +79,7 @@
                         <div class="col-sm-8"><?= $contactApi[0]->no_rek;?></div>
                     </div>
                 </div>
-            </div> 
+            </div>  -->
         </div>
     </div>
 </div>
